@@ -1,6 +1,6 @@
 # **Find Your Repos!**
 
-### RepoFinder is an app here to bring you a seamless way to add all of your favorite repositories right into the package manager of your choice.
+### RepoFinder is here to bring you a seamless way to add all of your favorite repositories right into the package manager of your choice.
 
 
 <img width="564" alt="Screen Shot 2021-09-29 at 2 27 55 PM" src="https://user-images.githubusercontent.com/54961512/135329490-bf9a64a5-a9e5-4f54-b2e1-bf1d06513184.png">
