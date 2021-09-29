@@ -82,7 +82,7 @@ let url = URL(string: "https://twitter.com/HomemadeToast57")
                             .padding(.top, 60)
                             .foregroundColor(Color("jpurple"))
 
-                        Text("v1.0")
+                        Text("v1.02")
                         
 
                         HStack {
