@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		334EEEAE44D01EA8CDC1E8BC /* Pods_RepoFinder_2_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A5E27D3D00972B35EC02B9 /* Pods_RepoFinder_2_0.framework */; };
+		44F874AD05750DF8585F2873 /* Pods_RepoFinder_2_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489B0BA4272C77A7949B77E9 /* Pods_RepoFinder_2_0Tests.framework */; };
+		72332FD6647B089B8C9062C4 /* Pods_RepoFinder_2_0_RepoFinder_2_0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495660978470CE58EE14CB1F /* Pods_RepoFinder_2_0_RepoFinder_2_0UITests.framework */; };
+		9A0556F9239EBFB600426D93 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9A0556F8239EBFB600426D93 /* URLImage */; };
+		9A0556FC239EC6B800426D93 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9A0556FB239EC6B800426D93 /* SDWebImageSwiftUI */; };
+		9A2BD26623997E8200F7E384 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2BD26523997E8200F7E384 /* SearchBar.swift */; };
+		9A2C5DB2239713FE005325CD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C5DB1239713FE005325CD /* NetworkManager.swift */; };
+		9A2C5DB4239720AD005325CD /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C5DB3239720AD005325CD /* Repo.swift */; };
+		9A59E2E023A1C3E300D4CE3F /* Repos.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A59E2DF23A1C3E300D4CE3F /* Repos.json */; };
+		9A8A239E23959A450068338F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A239D23959A450068338F /* AppDelegate.swift */; };
+		9A8A23A023959A450068338F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A239F23959A450068338F /* SceneDelegate.swift */; };
+		9A8A23A223959A450068338F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A23A123959A450068338F /* ContentView.swift */; };
+		9A8A23A423959A4A0068338F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8A23A323959A4A0068338F /* Assets.xcassets */; };
+		9A8A23A723959A4A0068338F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8A23A623959A4A0068338F /* Preview Assets.xcassets */; };
+		9A8A23AA23959A4A0068338F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8A23A823959A4A0068338F /* LaunchScreen.storyboard */; };
+		9A8A23B523959A4A0068338F /* RepoFinder_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A23B423959A4A0068338F /* RepoFinder_2_0Tests.swift */; };
+		9A8A23C023959A4A0068338F /* RepoFinder_2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A23BF23959A4A0068338F /* RepoFinder_2_0UITests.swift */; };
+		9AABC4A12704BDCB0033B90D /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AABC4A02704BDCB0033B90D /* AppView.swift */; };
+		9AB3F3CC23A05712002A42F2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB3F3CB23A05712002A42F2 /* SettingsView.swift */; };
+		9AB3F3D023A05ED3002A42F2 /* SettingsViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB3F3CF23A05ED3002A42F2 /* SettingsViewData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A8A23B123959A4A0068338F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A8A239223959A450068338F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A8A239923959A450068338F;
+			remoteInfo = "RepoFinder 2.0";
+		};
+		9A8A23BC23959A4A0068338F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A8A239223959A450068338F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A8A239923959A450068338F;
+			remoteInfo = "RepoFinder 2.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0286C21142A1DDEF1485E9A5 /* Pods-RepoFinder 2.0-RepoFinder 2.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepoFinder 2.0-RepoFinder 2.0UITests.debug.xcconfig"; path = "Target Support Files/Pods-RepoFinder 2.0-RepoFinder 2.0UITests/Pods-RepoFinder 2.0-RepoFinder 2.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		05A5E27D3D00972B35EC02B9 /* Pods_RepoFinder_2_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepoFinder_2_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		489B0BA4272C77A7949B77E9 /* Pods_RepoFinder_2_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepoFinder_2_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		495660978470CE58EE14CB1F /* Pods_RepoFinder_2_0_RepoFinder_2_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepoFinder_2_0_RepoFinder_2_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C67913996E81E55E993513F /* Pods-RepoFinder 2.0-RepoFinder 2.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepoFinder 2.0-RepoFinder 2.0UITests.release.xcconfig"; path = "Target Support Files/Pods-RepoFinder 2.0-RepoFinder 2.0UITests/Pods-RepoFinder 2.0-RepoFinder 2.0UITests.release.xcconfig"; sourceTree = "<group>"; };
+		882F25B2184E0C0CDABC517B /* Pods-RepoFinder 2.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepoFinder 2.0Tests.debug.xcconfig"; path = "Target Support Files/Pods-RepoFinder 2.0Tests/Pods-RepoFinder 2.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9530F03135D8D011695DE9EC /* Pods-RepoFinder 2.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepoFinder 2.0.release.xcconfig"; path = "Target Support Files/Pods-RepoFinder 2.0/Pods-RepoFinder 2.0.release.xcconfig"; sourceTree = "<group>"; };
+		9A2BD26523997E8200F7E384 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		9A2C5DB1239713FE005325CD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9A2C5DB3239720AD005325CD /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		9A59E2DF23A1C3E300D4CE3F /* Repos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Repos.json; sourceTree = "<group>"; };
+		9A8A239A23959A450068338F /* RepoFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepoFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8A239D23959A450068338F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A8A239F23959A450068338F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9A8A23A123959A450068338F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A8A23A323959A4A0068338F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A8A23A623959A4A0068338F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A8A23A923959A4A0068338F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A8A23AB23959A4A0068338F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A8A23B023959A4A0068338F /* RepoFinder 2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RepoFinder 2.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8A23B423959A4A0068338F /* RepoFinder_2_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoFinder_2_0Tests.swift; sourceTree = "<group>"; };
+		9A8A23B623959A4A0068338F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A8A23BB23959A4A0068338F /* RepoFinder 2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RepoFinder 2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8A23BF23959A4A0068338F /* RepoFinder_2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoFinder_2_0UITests.swift; sourceTree = "<group>"; };
+		9A8A23C123959A4A0068338F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AABC4A02704BDCB0033B90D /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		9AB3F3CB23A05712002A42F2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9AB3F3CF23A05ED3002A42F2 /* SettingsViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewData.swift; sourceTree = "<group>"; };
+		B823DE530AF00C490147B479 /* Pods-RepoFinder 2.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepoFinder 2.0.debug.xcconfig"; path = "Target Support Files/Pods-RepoFinder 2.0/Pods-RepoFinder 2.0.debug.xcconfig"; sourceTree = "<group>"; };
+		E9C937FBD71D1D5604555BD6 /* Pods-RepoFinder 2.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepoFinder 2.0Tests.release.xcconfig"; path = "Target Support Files/Pods-RepoFinder 2.0Tests/Pods-RepoFinder 2.0Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A8A239723959A450068338F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0556FC239EC6B800426D93 /* SDWebImageSwiftUI in Frameworks */,
+				9A0556F9239EBFB600426D93 /* URLImage in Frameworks */,
+				334EEEAE44D01EA8CDC1E8BC /* Pods_RepoFinder_2_0.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8A23AD23959A4A0068338F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F874AD05750DF8585F2873 /* Pods_RepoFinder_2_0Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8A23B823959A4A0068338F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72332FD6647B089B8C9062C4 /* Pods_RepoFinder_2_0_RepoFinder_2_0UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		588186068675BFC360C76EA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B823DE530AF00C490147B479 /* Pods-RepoFinder 2.0.debug.xcconfig */,
+				9530F03135D8D011695DE9EC /* Pods-RepoFinder 2.0.release.xcconfig */,
+				0286C21142A1DDEF1485E9A5 /* Pods-RepoFinder 2.0-RepoFinder 2.0UITests.debug.xcconfig */,
+				4C67913996E81E55E993513F /* Pods-RepoFinder 2.0-RepoFinder 2.0UITests.release.xcconfig */,
+				882F25B2184E0C0CDABC517B /* Pods-RepoFinder 2.0Tests.debug.xcconfig */,
+				E9C937FBD71D1D5604555BD6 /* Pods-RepoFinder 2.0Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9A8A239123959A450068338F = {
+			isa = PBXGroup;
+			children = (
+				9A8A239C23959A450068338F /* RepoFinder 2.0 */,
+				9A8A23B323959A4A0068338F /* RepoFinder 2.0Tests */,
+				9A8A23BE23959A4A0068338F /* RepoFinder 2.0UITests */,
+				9A8A239B23959A450068338F /* Products */,
+				588186068675BFC360C76EA1 /* Pods */,
+				A06001C4B1EA3D080C8DF6DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A8A239B23959A450068338F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A8A239A23959A450068338F /* RepoFinder.app */,
+				9A8A23B023959A4A0068338F /* RepoFinder 2.0Tests.xctest */,
+				9A8A23BB23959A4A0068338F /* RepoFinder 2.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A8A239C23959A450068338F /* RepoFinder 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				9A59E2DF23A1C3E300D4CE3F /* Repos.json */,
+				9A8A239D23959A450068338F /* AppDelegate.swift */,
+				9A8A239F23959A450068338F /* SceneDelegate.swift */,
+				9AB3F3CB23A05712002A42F2 /* SettingsView.swift */,
+				9AABC4A02704BDCB0033B90D /* AppView.swift */,
+				9AB3F3CF23A05ED3002A42F2 /* SettingsViewData.swift */,
+				9A8A23A123959A450068338F /* ContentView.swift */,
+				9A2BD26523997E8200F7E384 /* SearchBar.swift */,
+				9A2C5DB3239720AD005325CD /* Repo.swift */,
+				9A2C5DB1239713FE005325CD /* NetworkManager.swift */,
+				9A8A23A323959A4A0068338F /* Assets.xcassets */,
+				9A8A23A823959A4A0068338F /* LaunchScreen.storyboard */,
+				9A8A23AB23959A4A0068338F /* Info.plist */,
+				9A8A23A523959A4A0068338F /* Preview Content */,
+			);
+			path = "RepoFinder 2.0";
+			sourceTree = "<group>";
+		};
+		9A8A23A523959A4A0068338F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9A8A23A623959A4A0068338F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A8A23B323959A4A0068338F /* RepoFinder 2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9A8A23B423959A4A0068338F /* RepoFinder_2_0Tests.swift */,
+				9A8A23B623959A4A0068338F /* Info.plist */,
+			);
+			path = "RepoFinder 2.0Tests";
+			sourceTree = "<group>";
+		};
+		9A8A23BE23959A4A0068338F /* RepoFinder 2.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A8A23BF23959A4A0068338F /* RepoFinder_2_0UITests.swift */,
+				9A8A23C123959A4A0068338F /* Info.plist */,
+			);
+			path = "RepoFinder 2.0UITests";
+			sourceTree = "<group>";
+		};
+		A06001C4B1EA3D080C8DF6DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05A5E27D3D00972B35EC02B9 /* Pods_RepoFinder_2_0.framework */,
+				495660978470CE58EE14CB1F /* Pods_RepoFinder_2_0_RepoFinder_2_0UITests.framework */,
+				489B0BA4272C77A7949B77E9 /* Pods_RepoFinder_2_0Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A8A239923959A450068338F /* RepoFinder 2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A8A23C423959A4A0068338F /* Build configuration list for PBXNativeTarget "RepoFinder 2.0" */;
+			buildPhases = (
+				8DF8D1997EB2692D0B290339 /* [CP] Check Pods Manifest.lock */,
+				9A8A239623959A450068338F /* Sources */,
+				9A8A239723959A450068338F /* Frameworks */,
+				9A8A239823959A450068338F /* Resources */,
+				6C3B517D7A79D93F357843DC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RepoFinder 2.0";
+			packageProductDependencies = (
+				9A0556F8239EBFB600426D93 /* URLImage */,
+				9A0556FB239EC6B800426D93 /* SDWebImageSwiftUI */,
+			);
+			productName = "RepoFinder 2.0";
+			productReference = 9A8A239A23959A450068338F /* RepoFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A8A23AF23959A4A0068338F /* RepoFinder 2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A8A23C723959A4A0068338F /* Build configuration list for PBXNativeTarget "RepoFinder 2.0Tests" */;
+			buildPhases = (
+				3B62D20FDEB608D7EE55BEFF /* [CP] Check Pods Manifest.lock */,
+				9A8A23AC23959A4A0068338F /* Sources */,
+				9A8A23AD23959A4A0068338F /* Frameworks */,
+				9A8A23AE23959A4A0068338F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A8A23B223959A4A0068338F /* PBXTargetDependency */,
+			);
+			name = "RepoFinder 2.0Tests";
+			productName = "RepoFinder 2.0Tests";
+			productReference = 9A8A23B023959A4A0068338F /* RepoFinder 2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A8A23BA23959A4A0068338F /* RepoFinder 2.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A8A23CA23959A4A0068338F /* Build configuration list for PBXNativeTarget "RepoFinder 2.0UITests" */;
+			buildPhases = (
+				047299EA8EE776967415D912 /* [CP] Check Pods Manifest.lock */,
+				9A8A23B723959A4A0068338F /* Sources */,
+				9A8A23B823959A4A0068338F /* Frameworks */,
+				9A8A23B923959A4A0068338F /* Resources */,
+				03253E4C2F98A3F263F99129 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A8A23BD23959A4A0068338F /* PBXTargetDependency */,
+			);
+			name = "RepoFinder 2.0UITests";
+			productName = "RepoFinder 2.0UITests";
+			productReference = 9A8A23BB23959A4A0068338F /* RepoFinder 2.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A8A239223959A450068338F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Jacob Singer";
+				TargetAttributes = {
+					9A8A239923959A450068338F = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					9A8A23AF23959A4A0068338F = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 9A8A239923959A450068338F;
+					};
+					9A8A23BA23959A4A0068338F = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 9A8A239923959A450068338F;
+					};
+				};
+			};
+			buildConfigurationList = 9A8A239523959A450068338F /* Build configuration list for PBXProject "RepoFinder 2.0" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A8A239123959A450068338F;
+			packageReferences = (
+				9A0556F7239EBFB600426D93 /* XCRemoteSwiftPackageReference "url-image" */,
+				9A0556FA239EC6B800426D93 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 9A8A239B23959A450068338F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A8A239923959A450068338F /* RepoFinder 2.0 */,
+				9A8A23AF23959A4A0068338F /* RepoFinder 2.0Tests */,
+				9A8A23BA23959A4A0068338F /* RepoFinder 2.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A8A239823959A450068338F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8A23AA23959A4A0068338F /* LaunchScreen.storyboard in Resources */,
+				9A59E2E023A1C3E300D4CE3F /* Repos.json in Resources */,
+				9A8A23A723959A4A0068338F /* Preview Assets.xcassets in Resources */,
+				9A8A23A423959A4A0068338F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8A23AE23959A4A0068338F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8A23B923959A4A0068338F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03253E4C2F98A3F263F99129 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RepoFinder 2.0-RepoFinder 2.0UITests/Pods-RepoFinder 2.0-RepoFinder 2.0UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RepoFinder 2.0-RepoFinder 2.0UITests/Pods-RepoFinder 2.0-RepoFinder 2.0UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RepoFinder 2.0-RepoFinder 2.0UITests/Pods-RepoFinder 2.0-RepoFinder 2.0UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		047299EA8EE776967415D912 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RepoFinder 2.0-RepoFinder 2.0UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B62D20FDEB608D7EE55BEFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RepoFinder 2.0Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C3B517D7A79D93F357843DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RepoFinder 2.0/Pods-RepoFinder 2.0-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RepoFinder 2.0/Pods-RepoFinder 2.0-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RepoFinder 2.0/Pods-RepoFinder 2.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DF8D1997EB2692D0B290339 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RepoFinder 2.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A8A239623959A450068338F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A2BD26623997E8200F7E384 /* SearchBar.swift in Sources */,
+				9A8A239E23959A450068338F /* AppDelegate.swift in Sources */,
+				9AABC4A12704BDCB0033B90D /* AppView.swift in Sources */,
+				9A8A23A023959A450068338F /* SceneDelegate.swift in Sources */,
+				9AB3F3CC23A05712002A42F2 /* SettingsView.swift in Sources */,
+				9A2C5DB2239713FE005325CD /* NetworkManager.swift in Sources */,
+				9AB3F3D023A05ED3002A42F2 /* SettingsViewData.swift in Sources */,
+				9A2C5DB4239720AD005325CD /* Repo.swift in Sources */,
+				9A8A23A223959A450068338F /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8A23AC23959A4A0068338F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8A23B523959A4A0068338F /* RepoFinder_2_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8A23B723959A4A0068338F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8A23C023959A4A0068338F /* RepoFinder_2_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A8A23B223959A4A0068338F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A8A239923959A450068338F /* RepoFinder 2.0 */;
+			targetProxy = 9A8A23B123959A4A0068338F /* PBXContainerItemProxy */;
+		};
+		9A8A23BD23959A4A0068338F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A8A239923959A450068338F /* RepoFinder 2.0 */;
+			targetProxy = 9A8A23BC23959A4A0068338F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A8A23A823959A4A0068338F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A8A23A923959A4A0068338F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A8A23C223959A4A0068338F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A8A23C323959A4A0068338F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A8A23C523959A4A0068338F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B823DE530AF00C490147B479 /* Pods-RepoFinder 2.0.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RepoFinder 2.0/Preview Content\"";
+				DEVELOPMENT_TEAM = 9MQ2LQ6V7P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "RepoFinder 2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HomemadeToast57.RepoFinder-2-0";
+				PRODUCT_NAME = RepoFinder;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A8A23C623959A4A0068338F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9530F03135D8D011695DE9EC /* Pods-RepoFinder 2.0.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RepoFinder 2.0/Preview Content\"";
+				DEVELOPMENT_TEAM = 9MQ2LQ6V7P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "RepoFinder 2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HomemadeToast57.RepoFinder-2-0";
+				PRODUCT_NAME = RepoFinder;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A8A23C823959A4A0068338F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 882F25B2184E0C0CDABC517B /* Pods-RepoFinder 2.0Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MQ2LQ6V7P;
+				INFOPLIST_FILE = "RepoFinder 2.0Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HomemadeToast57.RepoFinder-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RepoFinder 2.0.app/RepoFinder 2.0";
+			};
+			name = Debug;
+		};
+		9A8A23C923959A4A0068338F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9C937FBD71D1D5604555BD6 /* Pods-RepoFinder 2.0Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MQ2LQ6V7P;
+				INFOPLIST_FILE = "RepoFinder 2.0Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HomemadeToast57.RepoFinder-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RepoFinder 2.0.app/RepoFinder 2.0";
+			};
+			name = Release;
+		};
+		9A8A23CB23959A4A0068338F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0286C21142A1DDEF1485E9A5 /* Pods-RepoFinder 2.0-RepoFinder 2.0UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MQ2LQ6V7P;
+				INFOPLIST_FILE = "RepoFinder 2.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HomemadeToast57.RepoFinder-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RepoFinder 2.0";
+			};
+			name = Debug;
+		};
+		9A8A23CC23959A4A0068338F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C67913996E81E55E993513F /* Pods-RepoFinder 2.0-RepoFinder 2.0UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MQ2LQ6V7P;
+				INFOPLIST_FILE = "RepoFinder 2.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HomemadeToast57.RepoFinder-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RepoFinder 2.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A8A239523959A450068338F /* Build configuration list for PBXProject "RepoFinder 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8A23C223959A4A0068338F /* Debug */,
+				9A8A23C323959A4A0068338F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A8A23C423959A4A0068338F /* Build configuration list for PBXNativeTarget "RepoFinder 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8A23C523959A4A0068338F /* Debug */,
+				9A8A23C623959A4A0068338F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A8A23C723959A4A0068338F /* Build configuration list for PBXNativeTarget "RepoFinder 2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8A23C823959A4A0068338F /* Debug */,
+				9A8A23C923959A4A0068338F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A8A23CA23959A4A0068338F /* Build configuration list for PBXNativeTarget "RepoFinder 2.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8A23CB23959A4A0068338F /* Debug */,
+				9A8A23CC23959A4A0068338F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9A0556F7239EBFB600426D93 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.9;
+			};
+		};
+		9A0556FA239EC6B800426D93 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9A0556F8239EBFB600426D93 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A0556F7239EBFB600426D93 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		9A0556FB239EC6B800426D93 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A0556FA239EC6B800426D93 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9A8A239223959A450068338F /* Project object */;
+}
