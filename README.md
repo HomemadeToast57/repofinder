@@ -1,5 +1,4 @@
 # **Find Your Repos!**
-
 ### RepoFinder is here to bring you a seamless way to add all of your favorite repositories right into the package manager of your choice.
 
 
@@ -20,3 +19,4 @@ If RepoFinder does not show up on your home screen, try clearing UICache.
 *(RepoFinder is not a package manager but instead is a repository library.)*  
 (Special thanks to @QuixThe2nd for his help on the project)
 
+[![forthebadge](https://forthebadge.com/images/badges/made-with-swift.svg)](https://forthebadge.com)
